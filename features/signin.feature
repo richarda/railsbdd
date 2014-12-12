@@ -9,3 +9,9 @@ Feature: sign in to the app
     Given I have an existing account
     When I sign in
     Then I see confirmation of my sign in
+
+  Scenario: sign in with a different account
+
+  Scenario: sign in with a wrong password
+
+  Scenario: sign in with a username that does not exist
